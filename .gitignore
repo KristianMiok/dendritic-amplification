@@ -1,0 +1,26 @@
+# data & heavy outputs
+data/
+results/figures/
+results/tables/*.parquet
+results/tables/*.csv
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# os / ide
+.DS_Store
+.idea/
+
+# extra safety: never commit data/network/private files
+*.gpkg
+*.tif
+*.xlsx
+*.rar
+*.parquet
+data/
